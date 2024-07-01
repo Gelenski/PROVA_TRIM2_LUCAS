@@ -7,7 +7,7 @@ def lista():
         if i != "Dezembro":
             print(i)
         else:
-            print(f"O aniversário da lenda é {i}")
+            print(f"O aniversário da lenda é em {i}")
 
 
 lista()
