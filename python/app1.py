@@ -1,4 +1,6 @@
-meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
+meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro",
+         "novembro", "dezembro"]
+
 
 def lista():
     for i in meses:
@@ -6,5 +8,6 @@ def lista():
             print(i)
         else:
             print(f"O aniversário da lenda é {i}")
-    
+
+
 lista()
